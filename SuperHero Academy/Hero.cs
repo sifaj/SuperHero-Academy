@@ -17,13 +17,13 @@ namespace SuperHero_Academy
 
         protected Random generator = new Random(); // En random som fungerar som generator för att slumpa stats i sub-klasserna. 
 
-        public void Name()
+        public void Name() // Låter spelaren bestämma sin hjältes namn.
         {
             Console.WriteLine("\nPlease enter your hero's name: ");
             name = Console.ReadLine();
         }
 
-        public string Category(int listnumber)
+        public string Category(int listnumber) // Returnar input från listan categories beroende på vilken kategori spelaren har valt.
         {
             if (listnumber == 0)
             {
