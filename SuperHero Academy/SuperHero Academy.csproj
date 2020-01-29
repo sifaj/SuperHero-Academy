@@ -49,6 +49,7 @@
     <Compile Include="Ranged.cs" />
     <Compile Include="Stealthed.cs" />
     <Compile Include="Tank.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
