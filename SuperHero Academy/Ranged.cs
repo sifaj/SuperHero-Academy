@@ -10,7 +10,7 @@ namespace SuperHero_Academy
     {
 
 
-        public Ranged() // Konstruktor som slumpar stats och skriver ut dem med hjälp av GetStats() metoden. 
+        public Ranged() // Konstruktor som låter spelaren bestämma namn, definierar dess kategori och slumpar stats och skriver ut dem med hjälp av GetStats() metoden. 
         {
             Name();
 
